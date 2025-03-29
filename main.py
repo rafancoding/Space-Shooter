@@ -198,4 +198,6 @@ while running:
     #player       
     all_sprites.draw(display_surface)                                                    
 
-    pygame.display.update()      
+    pygame.display.update()
+
+    pygame.quit()      
