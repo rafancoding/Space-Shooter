@@ -9,7 +9,7 @@ class Player(pygame.sprite.Sprite):
         self.image = pygame.image.load("res/images/pibble.png").convert_alpha()          
         self.rect = self.image.get_frect(center = (WIDTH / 2 , HEIGHT / 2))              
         self.direction = pygame.Vector2()                                                
-        self.speed = 1000
+        self.speed = 750
 
         #rescale
         self.image = pygame.transform.scale_by(self.image,(0.6))
